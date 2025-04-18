@@ -1,7 +1,6 @@
-package com.example.camunda_hello_world;
+package com.example.camunda_hello_world.services;
 
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 
