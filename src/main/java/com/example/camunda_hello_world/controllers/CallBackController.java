@@ -15,7 +15,6 @@ public class CallBackController {
 
     @PostMapping("")
     public  String callBack(){
-//        runtimeService.createMessageCorrelation("Message_3qe8ssh").processInstanceBusinessKey("test").correlate();
         runtimeService.createMessageCorrelation("callbackReceived").correlate();
         return "callback ...";
     }

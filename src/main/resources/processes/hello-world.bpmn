@@ -17,7 +17,7 @@
     <bpmn:endEvent id="Event_0ka7mdl" name="end">
       <bpmn:incoming>Flow_01ost9o</bpmn:incoming>
     </bpmn:endEvent>
-    <bpmn:serviceTask id="Activity_17jp2s7" name="hello world" camunda:delegateExpression="#{helloWorld}">
+    <bpmn:serviceTask id="Activity_17jp2s7" name="hello world" camunda:delegateExpression="#{parallelHelloWorld}">
       <bpmn:extensionElements>
         <camunda:inputOutput>
           <camunda:inputParameter name="Input_0sr6upd" />
@@ -27,7 +27,7 @@
       <bpmn:incoming>Flow_0sjo8vl</bpmn:incoming>
       <bpmn:outgoing>Flow_00gun1o</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="Activity_1x42uqq" name="hello world" camunda:delegateExpression="#{helloWorld}">
+    <bpmn:serviceTask id="Activity_1x42uqq" name="hello world" camunda:delegateExpression="#{parallelHelloWorld}">
       <bpmn:extensionElements>
         <camunda:inputOutput>
           <camunda:inputParameter name="Input_0sr6upd" />
@@ -37,7 +37,7 @@
       <bpmn:incoming>Flow_03j5vt2</bpmn:incoming>
       <bpmn:outgoing>Flow_1u94cm4</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="Activity_02afzco" name="hello world" camunda:delegateExpression="#{helloWorld}">
+    <bpmn:serviceTask id="Activity_02afzco" name="hello world" camunda:delegateExpression="#{parallelHelloWorld}">
       <bpmn:extensionElements>
         <camunda:inputOutput>
           <camunda:inputParameter name="Input_0sr6upd" />
@@ -47,7 +47,7 @@
       <bpmn:incoming>Flow_0wbqvgx</bpmn:incoming>
       <bpmn:outgoing>Flow_1xt8ict</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="Activity_0lf2wqx" name="hello world" camunda:delegateExpression="#{helloWorld}">
+    <bpmn:serviceTask id="Activity_0lf2wqx" name="hello world" camunda:delegateExpression="#{parallelHelloWorld}">
       <bpmn:extensionElements>
         <camunda:inputOutput>
           <camunda:inputParameter name="Input_0sr6upd" />
@@ -57,7 +57,7 @@
       <bpmn:incoming>Flow_0piprmh</bpmn:incoming>
       <bpmn:outgoing>Flow_026ook5</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="Activity_1ucodao" name="hello world" camunda:delegateExpression="#{helloWorld}">
+    <bpmn:serviceTask id="Activity_1ucodao" name="hello world" camunda:delegateExpression="#{parallelHelloWorld}">
       <bpmn:extensionElements>
         <camunda:inputOutput>
           <camunda:inputParameter name="Input_0sr6upd" />
